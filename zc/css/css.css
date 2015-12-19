@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+
+a,a:hover{ text-decoration:none; color:#333}
+body {background: #fef8e4;}
+
+.top {width:100%; height:2.5rem; background: #c33622; text-align: center;}
+.top img {width:11.35rem; height:2.1rem; margin-top: 0.2rem;}
+
+.banner {width:100%; height:7.2rem; background: url("../images/banner.jpg") no-repeat; background-size: 100%;}
+
+.bt1 {width:100%; height:1.925rem; background: url("../images/bt1.jpg") no-repeat; background-size: 100%;}
+.n1 {width:100%; height:15.625rem; background: url("../images/n1.png") no-repeat; background-size: 100% 14.075rem; background-position: center;}
+.n1-p {width:6.9rem; height:3.3rem; margin: 1.4rem 0.2rem 0 8.55rem; font-size: 0.6rem; font-family: "微软雅黑";  text-indent: 2em; float: right; color: white;}
+.n1-p1 {color: black;}
+
+
+.bt2 {width:100%; height:1.925rem; background: url("../images/bt2.jpg") no-repeat; background-size: 100%;}
+
+.n2 {width:100%; height:10rem; background: url("../images/n2.png") no-repeat; background-size: 100% 7.975rem; background-position: center;}
+.n2 p {width:7.5rem; height:6rem; font-size: 0.6rem; color: black; font-family: "微软雅黑"; float: right; margin: 2.5rem 0.7rem 0 0;}
+.n2 span {color: red;}
+
+.bt3 {width:100%; height:1.925rem; background: url("../images/bt3.jpg") no-repeat; background-size: 100%;}
+.n3 {width:100%; height:11rem;}
+.n3-1 {width:7.4rem; height:4.95rem; background: url("../images/n3-1.jpg") no-repeat; background-size: 100%; float: left; margin: 0.4rem 0 0 0.4rem;}
+.n3-2 {width:7.4rem; height:4.95rem; background: url("../images/n3-2.jpg") no-repeat; background-size: 100%; float: left; margin: 0.4rem 0 0 0.4rem;}
+.n3-3 {width:7.4rem; height:4.95rem; background: url("../images/n3-3.jpg") no-repeat; background-size: 100%; float: left; margin: 0.4rem 0 0 0.4rem;}
+.n3-4 {width:7.4rem; height:4.95rem; background: url("../images/n3-4.jpg") no-repeat; background-size: 100%; float: left; margin: 0.4rem 0 0 0.4rem;}
+
+.bottom {width:100%; height:3rem; background: #c33622; color: white; font-size: 0.6rem; font-family: "微软雅黑"; text-align: center; line-height: 1rem; padding: 0.5rem 0 0 0;}
+
