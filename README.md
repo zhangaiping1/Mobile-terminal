@@ -1,2 +1,2 @@
 # Mobile-terminal
-移动端相关内容
+移动端相关页面
