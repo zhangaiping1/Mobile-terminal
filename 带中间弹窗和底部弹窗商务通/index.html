@@ -1,0 +1,40 @@
+﻿<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<title>欢迎进入医院专家一对一在线对话窗口</title>
+	<script language="javascript" src="http://pbt.zoosnet.net/JS/LsJS.aspx?siteid=PBT64380744&float=1&lng=cn"></script>
+<script language="javascript">
+var hostname,hrefstr, pos, parastr, target,targetto;
+hostname=document.referrer;
+if(hostname==null || hostname=="")
+{
+	hostname = window.location.href;
+  // hostname = window.location.host;
+}
+hostname=hostname.replace("http://","")
+
+/*alert(hostname);*/
+
+/*hostname=hostname.split('/')[0];
+hostname=hostname.replace("www.","")*/
+
+hrefstr = window.location.href;
+pos = hrefstr.indexOf("?");
+parastr = hrefstr.substring(pos + 1);
+
+if (pos > 0) {
+	targetto='&' + parastr + '&e=' + hostname + '&p=' + hostname;
+
+} else {
+	
+	targetto= '&e=' + hostname + '&p=' + hostname;
+}
+openZoosUrl('fchatwin',targetto);
+</script>
+</head>
+<body>
+</body>
+</html>
